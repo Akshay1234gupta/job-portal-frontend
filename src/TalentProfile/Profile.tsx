@@ -28,7 +28,7 @@ const Profile = (props: any) => {
             <img className="rounded-t-2xl xl-mx:h-40 xs-mx:h-32 w-full" src="/Profile/banner.jpg" alt="" />
             <div className="absolute cursor-pointer flex items-center justify-center -bottom-1/3 md-mx:-bottom-10  sm-mx:-bottom-16 left-6 !rounded-full">
                 <Avatar className="!w-48 !h-48 md-mx:!w-40 md-mx:!h-40 sm-mx:!w-36 sm-mx:!h-36 xs-mx:!w-32 xs-mx:!h-32 border-mine-shaft-950 border-8 rounded-full"
-                    src={profile?.picture ? `data:image/jpeg;base64,${profile?.picture}` : "/Avatar.png"} alt="" />
+                    src={profile?.picture ? `data:image/jpeg;base64,${profile?.picture}` : "/avatar.png"} alt="" />
             </div>
         </div>
 
