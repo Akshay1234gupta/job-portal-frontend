@@ -61,7 +61,8 @@ const Login = () => {
                     navigate("/");
                 }, 4000)
             }).catch((err) => {
-                errNotification("Login Failed", err.response.data.errorMessage);
+                // errNotification("Login Failed", err.response.data.errorMessage);
+                errNotification("Login Failed", "Please, enter valid username and password...");
                 setLoading(false);
 
             });
