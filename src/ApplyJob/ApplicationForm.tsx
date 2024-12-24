@@ -23,7 +23,7 @@ const ApplicationForm = () => {
         if (!form.isValid()) return;
 
         setPreview(!preview);
-        console.log(form.getValues());
+        //console.log(form.getValues());
 
 
     }

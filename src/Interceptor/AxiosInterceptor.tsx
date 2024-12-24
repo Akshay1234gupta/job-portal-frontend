@@ -2,7 +2,7 @@ import axios, { InternalAxiosRequestConfig } from "axios";
 import { config } from "process";
 
 const axiosInstance = axios.create({
-    baseURL: 'https://job-portal-latest-m8nf.onrender.com/'
+    baseURL: 'https://job-portal-latest-zahy.onrender.com/'
 });
 
 axiosInstance.interceptors.request.use(

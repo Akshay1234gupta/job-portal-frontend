@@ -25,7 +25,7 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, allowedRoles 
 
     try {
         const decoded: any = jwtDecode(token);
-        console.log("Decoded token:", decoded);
+        //console.log("Decoded token:", decoded);
 
         if (allowedRoles && !allowedRoles.includes(decoded.accountType)) {
             return <Navigate to="/unauthorized" replace />;
